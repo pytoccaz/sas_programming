@@ -8,5 +8,4 @@ Repo's map:
 | ------------- | ------------- | ---- | --- |
 | grep  | *.sas  | grep & find - like - sas macros | none |
 | retain  | *.sas  | "easy retain"  sas macros   | utils/*.sas |
-| utils | *.sas | sas macros micro-tools forked from  [Jiangtang/SAS_ListProcessing]  (https://github.com/Jiangtang/SAS_ListProcessing/)
- | none |
+| utils | *.sas | sas macros micro-tools forked from  [Jiangtang/SAS_ListProcessing](https://github.com/Jiangtang/SAS_ListProcessing/) | none |
