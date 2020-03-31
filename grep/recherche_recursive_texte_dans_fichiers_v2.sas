@@ -14,7 +14,7 @@
  					   aout 2013	- meilleur gestion du quoting des parametres string et ext.	
 
 
-* Objectif           : Parser les fichiers d'une arborescence à la recherche d'une expression 
+* Objectif           : Parser les fichiers d'une arborescence a la recherche d'une expression 
 
 						 recherche par expression reguliere en specifiant regstring=1,
 							exemples : 
@@ -22,7 +22,7 @@
 						         2) toutes les macro-variables:  /&\w+\b/
 						         3) tous les mots de 26 lettres (ou chiffres) :   /\b\w{26}\b/
 								 4) mprint ou symbolgen :  /mpint|symbolgen/
-                        La recherche n'est pas sensible à la casse si nocase=1.
+                        La recherche n'est pas sensible ï¿½ la casse si nocase=1.
 
 * Parametres         : chemin       ----> repertoire racine 
 					   ext		    ----> extension des fichiers cible ex: sas, txt, csv	
@@ -32,7 +32,7 @@
 												"l'abeille", 'l''abeille', %bquote(l'abeille)												
 					   sous_dossier ----> recherche sur les sous-dossiers (1 par defaut ou 0)	
 					   ajout        ----> parametre technique de suppression de la table de sortie. 
-										  Peut etre passe à 1 pour compiler les resultats de plusieurs recherches.
+										  Peut etre passe ï¿½ 1 pour compiler les resultats de plusieurs recherches.
 						regstring=1 ----> indique que string est une expression reguliere valide, a eventuellement proteger 
 											selon le systeme de quoting sas 
 						regext=1    ----> indique que l'extension est une expression reguliere valide
