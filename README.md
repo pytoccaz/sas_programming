@@ -1,6 +1,6 @@
 # sas_programming
 
-This repo contains sas macros I developped when I worked as a SAS expert. 
+This repo contains sas macros I developped when I was working as a SAS expert. 
 
 Repo's map:
 
