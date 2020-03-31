@@ -4,8 +4,9 @@ This repo contains sas macros I developped when I worked as a SAS expert.
 
 Repo's map:
 
-| directory  | file | description |
+| directory  | file | description | dependencies |
 | ------------- | ------------- | ---- |
-| grep  | recherche_recursive_texte_dans_fichiers_v2.sas  | grep-like sas macro |
-| grep  | liste_fichiers_v2.sas  | ls-like sas macro  |
-
+| grep  | *.sas  | grep & find - like - sas macros | none |
+| retain  | *.sas  | "easy retain"  sas macros   | utils/*.sas |
+| utils | *.sas | sas macros micro-tools forked from  [Jiangtang/SAS_ListProcessing]  (https://github.com/Jiangtang/SAS_ListProcessing/)
+ | none |
