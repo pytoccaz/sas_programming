@@ -19,8 +19,6 @@ data step;
 %ar_declare(LABEL, table_ref=sashelp.class);
 set _null_;
 run;
-
-
 /* is equivalent to */
 data step;
 ARRAY LABEL_Name(1) $8 _TEMPORARY_;
@@ -36,11 +34,11 @@ run;
 ### ar_declare & ar_decharge
 load pdv variable values into arrays & download array values to pdv variables 
 
-The code below pushes 13th and 14th obe at the bottom of the newtable:
+The code below pushes 13th and 14th obs at the bottom of the newtable:
 
 
 ```sas
-data step;
+data newtable;
 %ar_declare(AR13, table_ref=sashelp.class);
 %ar_declare(AR14, table_ref=sashelp.class);
 set sashelp.class end=fin;
@@ -59,21 +57,5 @@ if fin then do;
 end;
 
 run;
-
-
-/* is equivalent to */
-data newtable;
-ARRAY LABEL_Name(1) $8 _TEMPORARY_;
-ARRAY LABEL_Sex(1) $1 _TEMPORARY_;
-ARRAY LABEL_Age(1) 8 _TEMPORARY_;
-ARRAY LABEL_Height(1) 8 _TEMPORARY_;
-ARRAY LABEL_Weight(1) 8 _TEMPORARY_;
-set _null_;
-run;
 ```
-
-
-
-
-
 
