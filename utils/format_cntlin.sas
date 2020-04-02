@@ -2,8 +2,8 @@
 	Programme: format_cntlin.sas
 	Version: V1.0
 
-	Auteur: obe (lincoln)
-	Date: 01/04/2013 (DPRSIM)
+	Auteur: obe
+	Date: 01/04/2013
 
 	Modification : obe - 06/06/2014 : gestion des tables cntlin vide
 
@@ -49,8 +49,8 @@
 			   passer du parametre sby et utiliser le parametre nodup pour dedoublonner
 			    par rapport aux variables de sectorisation; et si l'on a besoin d'introduire 
 				des variables de dedoublonnage supplementaires, on peut utiliser le parametre 
-				nodupby. Mais c'est déconseillé. Il vaut mieux toujours passer par une premiere 
-				phase de dédoublonnage avec sby+nodup, puis by=. 
+				nodupby. Mais c'est dÃ©conseillÃ©. Il vaut mieux toujours passer par une premiere 
+				phase de dÃ©doublonnage avec sby+nodup, puis by=. 
 
 
 
