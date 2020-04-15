@@ -31,7 +31,7 @@ run;
 ```
 
 
-### ar_declare & ar_decharge
+### ar_charge & ar_decharge
 load pdv variable values into arrays & download array values to pdv variables 
 
 The code below pushes 13th and 14th obs at the bottom of the newtable:
